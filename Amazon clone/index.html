@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <!-- Nav first box logo -->
+        <div class="navbar sticky">
+                <div class="nav-logo border">
+                    <img src="Image/amazon_logo.png" alt="amazon logo">
+                </div>
+
+             <!--  nav second box  -->
+                <div class="nav-address border">
+                    <p class="add-first">Deliver to </p>
+                    <div class="add-second">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="second">India</p>
+                    </div>
+                </div>
+
+             <!-- Navbar third box -->
+             <div class="nav-search">
+                        <select name="All" id="All">
+                            <option value="All">All</option>
+                            <option value="Tv">Tv</option>
+                            <option value="Mobile">Mobile</option>
+                        </select>
+                    <input type="text" placeholder="Amazon shop" class="input">
+                    <i class="fa-solid fa-magnifying-glass" id="mag"></i>
+             </div>
+
+             <!-- Navbar 4th box -->
+             <div class="nav-signin border">
+                <div class="first">Hello, sign in</div>
+               <div class="second">List & Accounts</div>
+             </div>
+
+             <!-- Navbar 5th box -->
+             <div class="nav-returns border">
+                <div class="first">Returns</div>
+                <div class="second">& Orders</div>
+             </div>
+
+             <!-- Navbar 6th box -->
+             <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Cart</p>
+            </div>
+        </div>
+
+        <!-- Header Panel stats -->
+        <div class="panel">
+                <div class="panel-all" id="sidebar-menu">
+                    <i class="fa-solid fa-bars"></i>
+                    All
+                </div>
+                <div class="panel-options">
+                    <p>Amazon Mini Tv</p>
+                    <p>Today's Deal</p>
+                    <p>Customer Service</p>
+                    <p>Electronics</p>
+                    <p>Gifts Cards</p>
+                    <p>Sell</p>
+                </div>
+                <div class="panel-deals">
+                    <p>Shop in electronics </p>
+                </div>
+        </div>
+    </header>
+
+
+    <!-- main section -->
+    <section>
+        <div class="image-container">
+            <div class="image-list">
+                <div class="image-item">
+                    <img src="image/hero_image.jpg" alt="hero image">
+                </div>
+                <div class="image-item">
+                    <img src="image/Amazon3.jpg" alt="hero image">
+                </div>
+                <div class="image-item">
+                    <img src="image/Amazon4.jpg" alt="hero image">
+                </div>
+                <div class="image-item">
+                    <img src="image/Amazon5.jpg" alt="hero image">
+                </div>
+                <div class="image-item">
+                    <img src="image/Amazon6.jpg" alt="hero image">
+                </div>
+            </div>
+            <div class="image-btn-container">
+                <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="slider-btn" id="slide-btn-right"><i class="fa-solid fa-angle-right"></i></button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop section -->
+    <main>
+      <div class="shop">
+        <div class="box">
+            <h2>Clothes</h2>
+            <img src="Image/box1_image.jpg" alt="clothes">
+            <p>Shop</p>
+        </div>
+        <div class="box">
+            <h2>Electronics</h2>
+            <img src="Image/box4_image.jpg" alt="clothes">
+            <p>Shop</p>
+        </div>
+        <div class="box">
+            <h2>Furniture</h2>
+            <img src="Image/box3_image.jpg" alt="clothes">
+            <p>shop</p>
+        </div>
+        <div class="box">
+            <h2>Beauty Products</h2>
+            <img src="Image/box5_image.jpg" alt="clothes">
+            <p>Shop</p>
+        </div>
+        <div class="box">
+            <h2>Pet Foods</h2>
+            <img src="Image/box6_image.jpg" alt="clothes">
+            <p>Shop</p>
+        </div>
+        <div class="box">
+            <h2>New Toys</h2>
+            <img src="Image/box7_image.jpg" alt="clothes">
+            <p>Shop</p>
+        </div>
+      </div>
+   </main>
+    <!-- Side bar Navigation -->
+    <div class="sidebar-navigation" id="sidebar-nav">
+        <div class="sidebar-left">
+            <div class="sidebar-top">
+                <i class="fa-solid fa-circle-user"></i>
+                <h2>Hello, <span>Sign in</span></h2>
+            </div>
+            <div class="sidebar-item">
+                <h2>Trending</h2>
+                <p>Best Seller</p>
+                <p>New releases</p>
+                <p>Movers and shakers</p>
+            </div>
+            <div class="sidebar-item">
+                <h2>Digital content and Devices</h2>
+                <p>Echo & Alexa</p>
+                <p>Free Tv</p>
+                <p>Kindle E-Reader & eBooks </p>
+                <p>Audible AudioBooks</p>
+                <p>Amazon prime Video</p>
+                <p>Amazon prime Music</p>
+            </div>
+            <div class="sidebar-item">
+                <h2>Shop By Category</h2>
+                <p>Mobiles & Computers</p>
+                <p>Tv,Applicances,Electronics</p>
+                <p>Mens Fashion</p>
+                <p>Womens Fashion</p>
+            </div>
+            <div class="sidebar-item">
+                <h2>Programs & Features</h2>
+                <p>Gift cards & Mobile Recharges</p>
+                <p>Flight Tickets</p>
+                <p>FoundItOnAmazon</p>
+                <p>clearance store</p>
+            </div>
+            <div class="sidebar-item">
+                <h2>Help & Settings</h2>
+                <p>Your Account</p>
+                <p>Customer Service</p>
+                <p>Sign in</p>
+            </div>
+        </div>
+        <button id="sidebar-close">
+            <i class="fa-solid fa-xmark"
+        </button>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
